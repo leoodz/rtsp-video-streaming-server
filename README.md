@@ -23,7 +23,7 @@ The RTSP stream URL and additional FFmpeg flags are configured in the code. Ensu
 
 ```javascript
 const handler = proxy({
-  url: 'rtsp://admin:abcd1234@sanbongthanhcong.cameraddns.net:555/Streaming/Channels/101',
+  url: 'rtsp://user:password@yourcameraipordoamin:port/path',
   verbose: true,
   additionalFlags: [
     '-vf', 'scale=3840:2160,eq=saturation=1.5:contrast=1.2:brightness=0.05,unsharp=5:5:0.5:3', // Adjust saturation, contrast, brightness, and sharpen
