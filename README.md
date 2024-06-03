@@ -44,9 +44,10 @@ The server will start running on port 8080. Open your web browser and navigate t
 
 Project Structure
 server.js: Main server file that sets up the Express server and RTSP proxy.
-Additional Notes
+Additional Notes:
 Ensure your RTSP stream URL is correct and accessible from your server.
 Adjust the FFmpeg flags as needed to optimize video quality and performance based on your requirements and available resources.
-Enter /path to see the performance status of the web interface.
+Enter /status to see the performance status of the web interface.
+
 License
 This project is licensed under the MIT License.
